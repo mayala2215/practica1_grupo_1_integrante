@@ -56,4 +56,11 @@ public class Funciones {
         return resultado;
     }
 
+    public static double dividir(double dividendo, double divisor) {
+
+        double resultado = dividendo / divisor;
+        return resultado;
+
+    }
+
 }
