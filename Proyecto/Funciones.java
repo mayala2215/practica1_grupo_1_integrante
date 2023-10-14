@@ -43,4 +43,13 @@ public class Funciones {
         return true;
     }
 
+     public static double potenciaAlCubo(double numero) {
+        return Math.pow(numero, 3);
+    }
+
+    public static double raizCubica(double numero) {
+        return Math.cbrt(numero);
+    }
+
+
 }
