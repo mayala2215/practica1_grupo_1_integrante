@@ -43,7 +43,7 @@ public class Funciones {
         return true;
     }
 
-     public static double potenciaAlCubo(double numero) {
+    public static double potenciaAlCubo(double numero) {
         return Math.pow(numero, 3);
     }
 
@@ -51,5 +51,9 @@ public class Funciones {
         return Math.cbrt(numero);
     }
 
+    public static int multiplicar(int numero1, int numero2) {
+        int resultado = numero1 * numero2;
+        return resultado;
+    }
 
 }
