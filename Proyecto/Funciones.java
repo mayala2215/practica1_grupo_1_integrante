@@ -57,10 +57,13 @@ public class Funciones {
     }
 
     public static double dividir(double dividendo, double divisor) {
-
-        double resultado = dividendo / divisor;
-        return resultado;
-
+        if (divisor != 0) {
+            double resultado = dividendo / divisor;
+            return resultado;
+        } else {
+            System.out.println("Error: No se puede dividir por cero.");
+            return Double.NaN;
+        }
     }
 
 }
